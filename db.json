@@ -1,14 +1,9 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "dashboard": [
+    { "id": 1, "reference_number": "1235AA","customer_po":"544RD" , "ar_portal" : "invoice" , "org_amount": "100" , "balance" : "20" ,"date": "2020-12-11"},
+     { "id": 1, "reference_number": "12#$AA","customer_po":"555CD" , "ar_portal" : "invoice" , "org_amount": "200" , "balance" : "50" ,"date": "2020-10-10"},
+ { "id": 1, "reference_number": "12SRA","customer_po":"534AS" , "ar_portal" : "cr_memo" , "org_amount": "300" , "balance" : "30" ,"date": "2020-12-10"},
+     { "id": 1, "reference_number": "12FDAA","customer_po":"54S%D" , "ar_portal" : "invoice" , "org_amount": "400" , "balance" : "10" ,"date": "2020-11-12"}
+  ] 
+  
 }
